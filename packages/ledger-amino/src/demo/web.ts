@@ -1,4 +1,4 @@
-import { AccountData, makeCosmoshubPath, StdSignDoc } from "@cosmjs/amino";
+import { AccountData, makeCosmoshubPath, StdSignDoc } from "@chiulam/amino";
 import { pathToString, stringToPath } from "@cosmjs/crypto";
 import { toBase64 } from "@cosmjs/encoding";
 import { Uint53 } from "@cosmjs/math";

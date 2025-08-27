@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { coin } from "@allthatjazzleo/amino";
-import { DirectSecp256k1HdWallet } from "@allthatjazzleo/proto-signing";
+import { coin } from "@chiulam/amino";
+import { DirectSecp256k1HdWallet } from "@chiulam/proto-signing";
 import { CometClient, connectComet } from "@cosmjs/tendermint-rpc";
 import { assert } from "@cosmjs/utils";
 import {

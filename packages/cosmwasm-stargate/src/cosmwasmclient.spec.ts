@@ -9,8 +9,8 @@ import {
   makeSignDoc,
   Registry,
   TxBodyEncodeObject,
-} from "@allthatjazzleo/proto-signing";
-import { assertIsDeliverTxSuccess, coins, MsgSendEncodeObject, StdFee } from "@allthatjazzleo/stargate";
+} from "@chiulam/proto-signing";
+import { assertIsDeliverTxSuccess, coins, MsgSendEncodeObject, StdFee } from "@chiulam/stargate";
 import { assert, sleep } from "@cosmjs/utils";
 import { TxRaw } from "cosmjs-types/cosmos/tx/v1beta1/tx";
 import { ReadonlyDate } from "readonly-date";

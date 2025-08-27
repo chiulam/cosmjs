@@ -1,4 +1,4 @@
-import { coins, makeCosmoshubPath } from "@allthatjazzleo/amino";
+import { coins, makeCosmoshubPath } from "@chiulam/amino";
 import { Secp256k1, Secp256k1Signature, sha256 } from "@cosmjs/crypto";
 import { fromBase64, fromHex } from "@cosmjs/encoding";
 

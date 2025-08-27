@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { AminoMsg } from "@allthatjazzleo/amino";
+import { AminoMsg } from "@chiulam/amino";
 
 import { AminoConverters } from "../../aminotypes";
 

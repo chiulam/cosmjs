@@ -1,5 +1,5 @@
-import { Pubkey } from "@allthatjazzleo/amino";
-import { encodePubkey } from "@allthatjazzleo/proto-signing";
+import { Pubkey } from "@chiulam/amino";
+import { encodePubkey } from "@chiulam/proto-signing";
 import { SignMode } from "cosmjs-types/cosmos/tx/signing/v1beta1/signing";
 import {
   GetTxRequest,

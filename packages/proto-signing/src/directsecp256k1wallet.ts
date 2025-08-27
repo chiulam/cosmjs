@@ -1,4 +1,4 @@
-import { encodeSecp256k1Signature, rawSecp256k1PubkeyToRawAddress } from "@allthatjazzleo/amino";
+import { encodeSecp256k1Signature, rawSecp256k1PubkeyToRawAddress } from "@chiulam/amino";
 import { Secp256k1, sha256 } from "@cosmjs/crypto";
 import { toBech32 } from "@cosmjs/encoding";
 import { SignDoc } from "cosmjs-types/cosmos/tx/v1beta1/tx";

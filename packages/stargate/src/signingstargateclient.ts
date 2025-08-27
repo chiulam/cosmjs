@@ -1,4 +1,4 @@
-import { encodeEthSecp256k1Pubkey, encodeSecp256k1Pubkey, makeSignDoc as makeSignDocAmino, StdFee } from "@allthatjazzleo/amino";
+import { encodeEthSecp256k1Pubkey, encodeSecp256k1Pubkey, makeSignDoc as makeSignDocAmino, StdFee } from "@chiulam/amino";
 import { fromBase64 } from "@cosmjs/encoding";
 import { Int53, Uint53 } from "@cosmjs/math";
 import {
@@ -11,7 +11,7 @@ import {
   OfflineSigner,
   Registry,
   TxBodyEncodeObject,
-} from "@allthatjazzleo/proto-signing";
+} from "@chiulam/proto-signing";
 import { CometClient, connectComet, HttpEndpoint } from "@cosmjs/tendermint-rpc";
 import { assert, assertDefined } from "@cosmjs/utils";
 import { Coin } from "cosmjs-types/cosmos/base/v1beta1/coin";

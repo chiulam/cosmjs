@@ -1,6 +1,6 @@
-import { StdFee } from "@allthatjazzleo/amino";
+import { StdFee } from "@chiulam/amino";
 import { Decimal, Uint53 } from "@cosmjs/math";
-import { coins } from "@allthatjazzleo/proto-signing";
+import { coins } from "@chiulam/proto-signing";
 
 /**
  * Denom checker for the Cosmos SDK 0.42 denom pattern

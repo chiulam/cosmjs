@@ -8,7 +8,7 @@ import {
   makeSignDoc,
   Registry,
   TxBodyEncodeObject,
-} from "@allthatjazzleo/proto-signing";
+} from "@chiulam/proto-signing";
 import { assert, sleep } from "@cosmjs/utils";
 import { MsgSendResponse } from "cosmjs-types/cosmos/bank/v1beta1/tx";
 import { Coin } from "cosmjs-types/cosmos/base/v1beta1/coin";

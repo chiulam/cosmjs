@@ -3,7 +3,7 @@ import {
   calculateFee,
   SigningStargateClient,
   StargateClient,
-} from "@cosmjs/stargate";
+} from "@chiulam/stargate";
 import { isDefined, sleep } from "@cosmjs/utils";
 
 import * as constants from "./constants";

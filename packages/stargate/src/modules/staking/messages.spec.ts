@@ -1,7 +1,7 @@
-import { coin, Secp256k1HdWallet } from "@allthatjazzleo/amino";
+import { coin, Secp256k1HdWallet } from "@chiulam/amino";
 import { Random } from "@cosmjs/crypto";
 import { fromBech32, toBase64, toBech32 } from "@cosmjs/encoding";
-import { DirectSecp256k1HdWallet, encodePubkey } from "@allthatjazzleo/proto-signing";
+import { DirectSecp256k1HdWallet, encodePubkey } from "@chiulam/proto-signing";
 
 import { calculateFee } from "../../fee";
 import { SigningStargateClient } from "../../signingstargateclient";

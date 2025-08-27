@@ -37,7 +37,7 @@
     "pack-web": "yarn build-or-skip && webpack --mode development --config webpack.demo.config.js"
   },
   "dependencies": {
-    "@allthatjazzleo/amino": "workspace:^",
+    "@chiulam/amino": "workspace:^",
     "@cosmjs/crypto": "workspace:^",
     "@cosmjs/encoding": "workspace:^",
     "@cosmjs/math": "workspace:^",
@@ -46,7 +46,7 @@
     "semver": "^7.5.2"
   },
   "devDependencies": {
-    "@allthatjazzleo/stargate": "workspace:^",
+    "@chiulam/stargate": "workspace:^",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@ledgerhq/hw-transport": "^6.31.4",
     "@ledgerhq/hw-transport-node-hid": "^6.29.5",

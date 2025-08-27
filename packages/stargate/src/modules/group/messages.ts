@@ -1,4 +1,4 @@
-import { GeneratedType } from "@allthatjazzleo/proto-signing";
+import { GeneratedType } from "@chiulam/proto-signing";
 import {
   MsgCreateGroup,
   MsgCreateGroupPolicy,

@@ -1,4 +1,4 @@
-import { encodeSecp256k1Signature, makeCosmoshubPath, rawSecp256k1PubkeyToRawAddress } from "@allthatjazzleo/amino";
+import { encodeSecp256k1Signature, makeCosmoshubPath, rawSecp256k1PubkeyToRawAddress } from "@chiulam/amino";
 import {
   Bip39,
   EnglishMnemonic,

@@ -1,4 +1,4 @@
-import { coin, coins, DirectSecp256k1HdWallet, Registry } from "@allthatjazzleo/proto-signing";
+import { coin, coins, DirectSecp256k1HdWallet, Registry } from "@chiulam/proto-signing";
 import { CometClient, connectComet } from "@cosmjs/tendermint-rpc";
 import { assertDefined, sleep } from "@cosmjs/utils";
 import { MsgDelegate } from "cosmjs-types/cosmos/staking/v1beta1/tx";

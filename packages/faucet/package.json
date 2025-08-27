@@ -41,8 +41,8 @@
     "pack-node": "yarn build-or-skip && webpack --mode production --config webpack.node.config.js"
   },
   "dependencies": {
-    "@allthatjazzleo/proto-signing": "workspace:^",
-    "@allthatjazzleo/stargate": "workspace:^",
+    "@chiulam/proto-signing": "workspace:^",
+    "@chiulam/stargate": "workspace:^",
     "@cosmjs/crypto": "workspace:^",
     "@cosmjs/encoding": "workspace:^",
     "@cosmjs/math": "workspace:^",

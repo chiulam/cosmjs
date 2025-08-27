@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { AminoSignResponse, Secp256k1HdWallet, Secp256k1HdWalletOptions, StdSignDoc } from "@allthatjazzleo/amino";
+import { AminoSignResponse, Secp256k1HdWallet, Secp256k1HdWalletOptions, StdSignDoc } from "@chiulam/amino";
 import { Bip39, EnglishMnemonic, Random } from "@cosmjs/crypto";
 import { toBech32 } from "@cosmjs/encoding";
 import {
@@ -8,7 +8,7 @@ import {
   DirectSecp256k1HdWalletOptions,
   DirectSignResponse,
   makeAuthInfoBytes,
-} from "@allthatjazzleo/proto-signing";
+} from "@chiulam/proto-signing";
 import { assertDefinedAndNotNull } from "@cosmjs/utils";
 import { SignMode } from "cosmjs-types/cosmos/tx/signing/v1beta1/signing";
 import { AuthInfo, SignDoc, TxBody } from "cosmjs-types/cosmos/tx/v1beta1/tx";

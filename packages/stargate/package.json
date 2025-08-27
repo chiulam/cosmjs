@@ -1,6 +1,6 @@
 {
-  "name": "@allthatjazzleo/stargate",
-  "version": "0.33.2",
+  "name": "@chiulam/stargate",
+  "version": "0.33.3",
   "description": "Utilities for Cosmos SDK 0.40",
   "contributors": [
     "Simon Warta <webmaster128@users.noreply.github.com>"
@@ -38,8 +38,8 @@
     "pack-web": "yarn build-or-skip && webpack --mode development --config webpack.web.config.js"
   },
   "dependencies": {
-    "@allthatjazzleo/amino": "^0.33.2",
-    "@allthatjazzleo/proto-signing": "^0.33.2",
+    "@chiulam/amino": "^0.33.3",
+    "@chiulam/proto-signing": "^0.33.3",
     "@cosmjs/encoding": "^0.33.1",
     "@cosmjs/math": "^0.33.1",
     "@cosmjs/stream": "^0.33.1",

@@ -1,4 +1,4 @@
-import { GasPrice } from "@cosmjs/stargate";
+import { GasPrice } from "@chiulam/stargate";
 
 import { TokenConfiguration } from "./tokenmanager";
 import { parseBankTokens } from "./tokens";

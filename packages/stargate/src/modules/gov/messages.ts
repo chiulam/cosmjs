@@ -1,4 +1,4 @@
-import { EncodeObject, GeneratedType } from "@allthatjazzleo/proto-signing";
+import { EncodeObject, GeneratedType } from "@chiulam/proto-signing";
 import {
   MsgDeposit as V1MsgDeposit,
   MsgSubmitProposal as V1MsgSubmitProposal,

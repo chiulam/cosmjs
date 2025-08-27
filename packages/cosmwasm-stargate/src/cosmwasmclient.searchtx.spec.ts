@@ -8,7 +8,7 @@ import {
   makeSignDoc,
   Registry,
   TxBodyEncodeObject,
-} from "@allthatjazzleo/proto-signing";
+} from "@chiulam/proto-signing";
 import {
   Coin,
   coins,
@@ -16,7 +16,7 @@ import {
   isDeliverTxFailure,
   isDeliverTxSuccess,
   isMsgSendEncodeObject,
-} from "@allthatjazzleo/stargate";
+} from "@chiulam/stargate";
 import { assert, sleep } from "@cosmjs/utils";
 import { TxRaw } from "cosmjs-types/cosmos/tx/v1beta1/tx";
 

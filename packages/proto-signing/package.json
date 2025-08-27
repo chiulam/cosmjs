@@ -1,6 +1,6 @@
 {
-  "name": "@allthatjazzleo/proto-signing",
-  "version": "0.33.2",
+  "name": "@chiulam/proto-signing",
+  "version": "0.33.3",
   "description": "Utilities for protobuf based signing (Cosmos SDK 0.40+)",
   "contributors": [
     "Will Clark <willclarktech@users.noreply.github.com>",
@@ -39,7 +39,7 @@
     "pack-web": "yarn build-or-skip && webpack --mode development --config webpack.web.config.js"
   },
   "dependencies": {
-    "@allthatjazzleo/amino": "^0.33.2",
+    "@chiulam/amino": "^0.33.3",
     "@cosmjs/crypto": "^0.33.1",
     "@cosmjs/encoding": "^0.33.1",
     "@cosmjs/math": "^0.33.1",

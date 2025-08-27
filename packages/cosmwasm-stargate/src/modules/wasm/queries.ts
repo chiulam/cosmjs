@@ -1,5 +1,5 @@
 import { fromUtf8, toUtf8 } from "@cosmjs/encoding";
-import { createPagination, createProtobufRpcClient, QueryClient } from "@allthatjazzleo/stargate";
+import { createPagination, createProtobufRpcClient, QueryClient } from "@chiulam/stargate";
 import {
   QueryAllContractStateResponse,
   QueryClientImpl,

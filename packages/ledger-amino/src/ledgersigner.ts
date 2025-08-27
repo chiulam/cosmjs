@@ -6,7 +6,7 @@ import {
   OfflineAminoSigner,
   serializeSignDoc,
   StdSignDoc,
-} from "@cosmjs/amino";
+} from "@chiulam/amino";
 import { HdPath } from "@cosmjs/crypto";
 import Transport from "@ledgerhq/hw-transport";
 

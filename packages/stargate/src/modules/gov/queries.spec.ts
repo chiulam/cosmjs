@@ -1,6 +1,6 @@
-import { coin, coins, makeCosmoshubPath } from "@allthatjazzleo/amino";
+import { coin, coins, makeCosmoshubPath } from "@chiulam/amino";
 import { toAscii } from "@cosmjs/encoding";
-import { DirectSecp256k1HdWallet } from "@allthatjazzleo/proto-signing";
+import { DirectSecp256k1HdWallet } from "@chiulam/proto-signing";
 import { CometClient, connectComet } from "@cosmjs/tendermint-rpc";
 import { assert, sleep } from "@cosmjs/utils";
 import {

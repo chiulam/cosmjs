@@ -1,5 +1,5 @@
-import { makeCosmoshubPath } from "@allthatjazzleo/amino";
-import { coins, DirectSecp256k1HdWallet } from "@allthatjazzleo/proto-signing";
+import { makeCosmoshubPath } from "@chiulam/amino";
+import { coins, DirectSecp256k1HdWallet } from "@chiulam/proto-signing";
 import { CometClient, connectComet } from "@cosmjs/tendermint-rpc";
 import { assertDefined, sleep } from "@cosmjs/utils";
 import { GenericAuthorization } from "cosmjs-types/cosmos/authz/v1beta1/authz";

@@ -41,10 +41,10 @@
     "!**/testdata/"
   ],
   "dependencies": {
-    "@allthatjazzleo/amino": "workspace:^",
-    "@allthatjazzleo/cosmwasm-stargate": "workspace:^",
-    "@allthatjazzleo/proto-signing": "workspace:^",
-    "@allthatjazzleo/stargate": "workspace:^",
+    "@chiulam/amino": "workspace:^",
+    "@chiulam/cosmwasm-stargate": "workspace:^",
+    "@chiulam/proto-signing": "workspace:^",
+    "@chiulam/stargate": "workspace:^",
     "@cosmjs/crypto": "workspace:^",
     "@cosmjs/encoding": "workspace:^",
     "@cosmjs/faucet-client": "workspace:^",
